@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pl">
-      <body className="antialiased">
+      <body className="font-geologica antialiased">
         <Header />
         <main className="min-h-screen">{children}</main>
         <Footer />
