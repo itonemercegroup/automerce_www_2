@@ -10,7 +10,7 @@ export function Header() {
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-2">
           <div className="flex items-center space-x-2">
-            <div className="h-8 w-8 rounded-md bg-gradient-to-br from-blue-600 to-purple-600" />
+            <div className="h-8 w-8 rounded-md bg-orange" />
             <span className="text-xl font-bold tracking-tight">Automerce</span>
           </div>
         </Link>

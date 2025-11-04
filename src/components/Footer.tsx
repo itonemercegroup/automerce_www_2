@@ -8,7 +8,7 @@ export function Footer() {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2">
-              <div className="h-8 w-8 rounded-md bg-gradient-to-br from-blue-600 to-purple-600" />
+              <div className="h-8 w-8 rounded-md bg-orange" />
               <span className="text-xl font-bold">Automerce</span>
             </div>
             <p className="mt-4 max-w-md text-sm text-muted-foreground">

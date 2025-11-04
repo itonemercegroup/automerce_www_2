@@ -8,19 +8,19 @@ export default function Home() {
       <section className="relative flex min-h-screen items-center justify-center overflow-hidden px-6 pt-20">
         {/* Gradient Background */}
         <div className="absolute inset-0 -z-10 h-full w-full bg-background bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]">
-          <div className="absolute left-0 right-0 top-0 -z-10 m-auto h-[310px] w-[310px] rounded-full bg-blue-600 opacity-20 blur-[100px]"></div>
+          <div className="absolute left-0 right-0 top-0 -z-10 m-auto h-[310px] w-[310px] rounded-full bg-orange opacity-20 blur-[100px]"></div>
         </div>
 
         <div className="mx-auto max-w-5xl text-center">
           <div className="mb-8 inline-flex items-center rounded-full border border-border/40 bg-muted/50 px-4 py-1.5 text-sm font-medium">
-            <span className="mr-2 h-2 w-2 rounded-full bg-green-500"></span>
+            <span className="mr-2 h-2 w-2 rounded-full bg-orange"></span>
             Dostępni dla nowych projektów
           </div>
 
           <h1 className="mb-6 text-5xl font-bold tracking-tight sm:text-6xl md:text-7xl lg:text-8xl">
             Automatyzacja
             <br />
-            <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            <span className="text-orange">
               przyszłości
             </span>
           </h1>
@@ -33,7 +33,7 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Button
               size="lg"
-              className="rounded-full bg-foreground px-8 py-6 text-lg text-background hover:bg-foreground/90"
+              className="rounded-full bg-orange px-8 py-6 text-lg text-white hover:bg-orange/90"
               asChild
             >
               <Link href="#contact">Rozpocznij projekt</Link>
@@ -41,7 +41,7 @@ export default function Home() {
             <Button
               size="lg"
               variant="outline"
-              className="rounded-full px-8 py-6 text-lg"
+              className="rounded-full border-border px-8 py-6 text-lg hover:border-orange hover:text-orange"
               asChild
             >
               <Link href="#services">Poznaj nasze usługi</Link>
@@ -80,10 +80,10 @@ export default function Home() {
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {/* Service Card 1 */}
-            <div className="group relative overflow-hidden rounded-2xl border border-border/40 bg-card p-8 transition-all hover:border-border hover:shadow-lg">
-              <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-blue-600/10">
+            <div className="group relative overflow-hidden rounded-2xl border border-border/40 bg-card p-8 transition-all hover:border-orange/20 hover:shadow-lg">
+              <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-orange/10">
                 <svg
-                  className="h-6 w-6 text-blue-600"
+                  className="h-6 w-6 text-orange"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -104,10 +104,10 @@ export default function Home() {
             </div>
 
             {/* Service Card 2 */}
-            <div className="group relative overflow-hidden rounded-2xl border border-border/40 bg-card p-8 transition-all hover:border-border hover:shadow-lg">
-              <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-purple-600/10">
+            <div className="group relative overflow-hidden rounded-2xl border border-border/40 bg-card p-8 transition-all hover:border-orange/20 hover:shadow-lg">
+              <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-orange/10">
                 <svg
-                  className="h-6 w-6 text-purple-600"
+                  className="h-6 w-6 text-orange"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -128,10 +128,10 @@ export default function Home() {
             </div>
 
             {/* Service Card 3 */}
-            <div className="group relative overflow-hidden rounded-2xl border border-border/40 bg-card p-8 transition-all hover:border-border hover:shadow-lg">
-              <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-green-600/10">
+            <div className="group relative overflow-hidden rounded-2xl border border-border/40 bg-card p-8 transition-all hover:border-orange/20 hover:shadow-lg">
+              <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-orange/10">
                 <svg
-                  className="h-6 w-6 text-green-600"
+                  className="h-6 w-6 text-orange"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -152,10 +152,10 @@ export default function Home() {
             </div>
 
             {/* Service Card 4 */}
-            <div className="group relative overflow-hidden rounded-2xl border border-border/40 bg-card p-8 transition-all hover:border-border hover:shadow-lg">
-              <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-orange-600/10">
+            <div className="group relative overflow-hidden rounded-2xl border border-border/40 bg-card p-8 transition-all hover:border-orange/20 hover:shadow-lg">
+              <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-orange/10">
                 <svg
-                  className="h-6 w-6 text-orange-600"
+                  className="h-6 w-6 text-orange"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -176,10 +176,10 @@ export default function Home() {
             </div>
 
             {/* Service Card 5 */}
-            <div className="group relative overflow-hidden rounded-2xl border border-border/40 bg-card p-8 transition-all hover:border-border hover:shadow-lg">
-              <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-pink-600/10">
+            <div className="group relative overflow-hidden rounded-2xl border border-border/40 bg-card p-8 transition-all hover:border-orange/20 hover:shadow-lg">
+              <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-orange/10">
                 <svg
-                  className="h-6 w-6 text-pink-600"
+                  className="h-6 w-6 text-orange"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -200,10 +200,10 @@ export default function Home() {
             </div>
 
             {/* Service Card 6 */}
-            <div className="group relative overflow-hidden rounded-2xl border border-border/40 bg-card p-8 transition-all hover:border-border hover:shadow-lg">
-              <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-indigo-600/10">
+            <div className="group relative overflow-hidden rounded-2xl border border-border/40 bg-card p-8 transition-all hover:border-orange/20 hover:shadow-lg">
+              <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-orange/10">
                 <svg
-                  className="h-6 w-6 text-indigo-600"
+                  className="h-6 w-6 text-orange"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -241,7 +241,7 @@ export default function Home() {
               </p>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
-                  <div className="mt-1 rounded-full bg-green-600 p-1">
+                  <div className="mt-1 rounded-full bg-orange p-1">
                     <svg
                       className="h-3 w-3 text-white"
                       fill="currentColor"
@@ -263,7 +263,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="mt-1 rounded-full bg-green-600 p-1">
+                  <div className="mt-1 rounded-full bg-orange p-1">
                     <svg
                       className="h-3 w-3 text-white"
                       fill="currentColor"
@@ -284,7 +284,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="mt-1 rounded-full bg-green-600 p-1">
+                  <div className="mt-1 rounded-full bg-orange p-1">
                     <svg
                       className="h-3 w-3 text-white"
                       fill="currentColor"
@@ -309,19 +309,19 @@ export default function Home() {
 
             <div className="grid grid-cols-2 gap-4">
               <div className="rounded-2xl border border-border/40 bg-card p-6">
-                <div className="mb-2 text-3xl font-bold text-blue-600">15+</div>
+                <div className="mb-2 text-3xl font-bold text-orange">15+</div>
                 <div className="text-sm font-medium">Lat doświadczenia</div>
               </div>
               <div className="rounded-2xl border border-border/40 bg-card p-6">
-                <div className="mb-2 text-3xl font-bold text-purple-600">50+</div>
+                <div className="mb-2 text-3xl font-bold text-orange">50+</div>
                 <div className="text-sm font-medium">Specjalistów</div>
               </div>
               <div className="rounded-2xl border border-border/40 bg-card p-6">
-                <div className="mb-2 text-3xl font-bold text-green-600">200+</div>
+                <div className="mb-2 text-3xl font-bold text-orange">200+</div>
                 <div className="text-sm font-medium">Wdrożeń</div>
               </div>
               <div className="rounded-2xl border border-border/40 bg-card p-6">
-                <div className="mb-2 text-3xl font-bold text-orange-600">10M+</div>
+                <div className="mb-2 text-3xl font-bold text-orange">10M+</div>
                 <div className="text-sm font-medium">Oszczędności</div>
               </div>
             </div>
@@ -372,7 +372,7 @@ export default function Home() {
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
             Gotowy na{" "}
-            <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            <span className="text-orange">
               transformację?
             </span>
           </h2>
@@ -383,7 +383,7 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Button
               size="lg"
-              className="rounded-full bg-foreground px-8 py-6 text-lg text-background hover:bg-foreground/90"
+              className="rounded-full bg-orange px-8 py-6 text-lg text-white hover:bg-orange/90"
               asChild
             >
               <a href="mailto:kontakt@automerce.pl">Wyślij wiadomość</a>
@@ -391,7 +391,7 @@ export default function Home() {
             <Button
               size="lg"
               variant="outline"
-              className="rounded-full px-8 py-6 text-lg"
+              className="rounded-full border-border px-8 py-6 text-lg hover:border-orange hover:text-orange"
               asChild
             >
               <a href="tel:+48123456789">Zadzwoń do nas</a>
